@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movies Site</title>
+</head>
+
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500&display=swap');
+    body{
+        min-height: 100vh;
+        background-image: linear-gradient(#1a1917 50%, #ffb724 50%);
+        color: white;
+        display: flex;
+        font-family: 'Poppins', sans-serif;
+        
+    }
+    .container{
+        padding: 15px 20px;
+        border-radius: 12px;
+        background-color: #1d2a3d;
+        /* display: flex; */
+        flex-direction: column;
+        width: 400px;
+        align-items: center;
+        margin: auto;
+        
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+
+
+    #search-box{
+        background-color: transparent;
+        border: 1px solid grey;
+        padding: 10px;
+        border-radius: 8px;
+        width: 300px;
+        color: white;
+    }
+    #search-btn{
+        margin-left: 10px;
+        background-color: #ffb724;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+.container2{
+    display: flex;
+    margin-top:10px;
+    justify-content: space-between;
+    
+
+}
+#img img{
+
+    height: 200px;
+    padding-right: 60px;
+}
+.right-container{
+    text-align: center;
+    /* padding-left: 50px; */
+}
+
+#btn1{
+    background-color: transparent;
+    color: white;
+    border: 1px solid grey;
+    padding: 5px 8px;
+    border-radius:5px ;
+    margin-right: 6px;
+}
+p{
+    font-size: 12px;
+    font-weight: 100;
+}
+.big-font{
+font-size: 20px;
+font-weight: 500;
+}
+
+.medium-font{
+font-size: 15px;
+font-weight: 400;
+}
+</style>
+
+<body>
+    <div class="container">
+        <div class="heading">
+            <input type="search" placeholder="search" id="search-box">
+            <button id="search-btn">Search</button>
+        </div>
+    
+        <div class="container2">
+            <div id="img">            <img src="joker.jpg" alt="error">
+            </div>
+            <div class="right-container">
+                <h2 class="big-font">Joker</h2>
+                <h2 class="big-font">8.4</h2>
+                <p>R 2019 122 min</p>
+                <div class="buttons">
+                    <button id="btn1">Crime</button>
+                    <button id="btn1">Drama</button>
+                    <button id="btn1">Thriller</button>
+                </div>
+            </div>
+        </div>
+    
+    <h3 class="medium-font">Plot:</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ullam est pariatur ducimus unde at.</p>
+    
+    
+    <h3 class="medium-font">Cast:</h3>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint ullam est pariatur ducimus unde at.</p>
+    
+    </div>
+</body>
+</html>
